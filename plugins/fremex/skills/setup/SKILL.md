@@ -121,9 +121,9 @@ claude mcp add --transport http --scope user voicestudio http://localhost:3900/m
 ```
 O VoiceStudio precisa estar aberto para o Claude usar a voz. Antes de baixar qualquer modelo, informe o tamanho e a licença e peça autorização.
 
-**Watch (assistir vídeos, opcional):** só se a skill `watch` estiver instalada no Claude Code. Rode a configuração dela e siga as perguntas:
+**Watch (assistir vídeos):** rode a configuração da skill incluída no plugin e siga as perguntas dela:
 ```bash
-python3 "<pasta da skill watch>/scripts/setup.py" --json
+python3 "${CLAUDE_SKILL_DIR}/../watch/scripts/setup.py" --json
 ```
 Recomende o motor **local** para material de clientes, porque o vídeo não sai do computador. O motor Gemini envia o vídeo ao Google: explique isso antes, se o usuário quiser usá-lo.
 
