@@ -1,0 +1,14 @@
+{
+  "name": "fremex",
+  "description": "Plugins da FREMEX para profissionais criativos: estúdio de edição de vídeo com Claude Code.",
+  "owner": {
+    "name": "FREMEX"
+  },
+  "plugins": [
+    {
+      "name": "fremex",
+      "source": "./plugins/fremex",
+      "description": "Estúdio de edição FREMEX: o usuário manda o vídeo e diz como quer, e o Claude corta, legenda, reenquadra, trata o áudio, narra, anima, exporta e entrega."
+    }
+  ]
+}
