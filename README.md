@@ -11,6 +11,10 @@ claude plugin install fremex@fremex
 
 Abra uma nova sessão do Claude Code e rode `/fremex:setup`.
 
+## No celular
+
+O estúdio também funciona pelo aplicativo do Claude no celular, numa sessão do Claude Code na nuvem: você manda o vídeo e recebe o vídeo pronto. Passo a passo em [MOBILE.md](MOBILE.md).
+
 Detalhes, habilidades e custos: [plugins/fremex/README.md](plugins/fremex/README.md).
 
 ## Licença
